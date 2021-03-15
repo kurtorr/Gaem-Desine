@@ -27,6 +27,8 @@ public class EnemyHP : MonoBehaviour
         {
             hp = hp - playerAttack.GetComponent<attackHitbox>().damage;
             Debug.Log("Enemy colision: Player Attack");
+
+
         }
     }
 

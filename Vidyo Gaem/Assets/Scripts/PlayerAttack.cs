@@ -32,6 +32,13 @@ public class PlayerAttack : MonoBehaviour
             Instantiate(hitBox);
             currentCooldown = 0;
             Debug.Log("Input: Left Mouse Button");
+
+            //mouse input test
+            Vector3 mousePos = Input.mousePosition;
+            {
+                Debug.Log("Mouse X:" + mousePos.x);
+                Debug.Log("Mouse Y:" + mousePos.y);
+            }
         }
     }
 }
